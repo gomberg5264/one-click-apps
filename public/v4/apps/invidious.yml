@@ -14,7 +14,7 @@ services:
         caproverExtra:
             notExposeAsWebApp: 'true'
     $$cap_appname:
-        image: omarroth/invidious$$cap_version
+        image: flourgaz/invidious$$cap_version
         restart: always
         environment:
             # Adapted from ./config/config.yml
